@@ -48,7 +48,7 @@ df_filtered <- df %>%
   mutate(percentage = count / sum(count)) %>%
   ungroup()
 
-
+# Calculate the total
 total_counts <- df_filtered %>%
   group_by(Species, Sector) %>%
   summarise(total_n = sum(count), .groups = 'drop')
@@ -68,7 +68,7 @@ desired_order <- c("Tigecycline", "Vancomycin", "Tetracycline", "Quinupristin/Da
 df_filtered <- df_filtered %>%
   mutate(Antibiotic = factor(Antibiotic, levels = desired_order))
 
-
+# colour
 col = rev(c("#ff7f24","#FFD700","#e5d8bd","#DDF1DA","#c3cfb6"))
 
 plot <- ggplot(df_filtered, aes(fill = Value, y = percentage, x = Antibiotic)) + 
