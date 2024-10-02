@@ -69,4 +69,8 @@ In community settings, higher rates of vancomycin-intermediate (VISA) and vancom
 
 This study highlights the urgent need for robust AMR surveillance and targeted interventions, as resistance profiles between clinical and community settings are converging. The findings underscore AMR as a public health priority, necessitating international collaboration to standardize detection efforts and enhance comparability across regions.
 
+<br/>
+
+## Acknowledgments
+We thank Vivli and Pfizer for providing the ATLAS clinical AMR data essential to this research. We are grateful to our team leader, Dr. Peng Wu, for her guidance and support, and to Dr. Keiji Fukuda for initiating the AMR study in the Hong Kong community. Our appreciation also goes to the HKU-Pasteur Research Pole for providing laboratory facilities. This study was supported by the Research Impact Fund (R7033-18) and the Collaborative Research Fund (C5063-22GF) from the Research Grants Council of the Hong Kong Government.
 
